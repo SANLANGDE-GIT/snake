@@ -18,7 +18,7 @@ class GameControl{
 
     constructor(){
         this.snake = new Snake();
-        this.scorePanel = new ScorePanel(10,1);
+        this.scorePanel = new ScorePanel(10,10);
         this.foot = new Food();
 
         // 初始化
